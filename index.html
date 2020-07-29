@@ -1,48 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Josephine Ndungu-full stack web developer</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Assets/css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>Josephine Ndungu</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="">
-            Josephine Ndungu
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      
+  <header>
+    <nav class="nav-wrapper transparent">
       <div class="container">
-        <h1 class="display-4">About Me</h1>
-        <div class="row">
-          <div class="col 3">
-            <img width="50%" src="https://image.shutterstock.com/image-vector/face-african-woman-emotions-american-260nw-1212056245.jpg" alt="josephine avatar">
-          </div>
-          <div class="col 9">
-            <p> I am originally from Kenya, a member of the tribe called kikuyu. I am a trained lawyer but I have decided to venture in to software development because 
-              of my love for solving problems. I believe my background in law is an advantage as I learned critical thinking. In my free time I watch movies and youtube videos.
-            </p>
-          </div>
+        <a href="#" class="brand-logo">Josephine Ndungu</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom"
+              data-tooltip="Github">
+              <i class="fab fa-github"></i>
+            </a></li>
+          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom"
+              data-tooltip="Email">
+              <i class="fab fa-google"></i>
+            </a></li>
+          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom"
+              data-tooltip="Linked In">
+              <i class="fab fa-linkedin"></i>
+            </a></li>
+        </ul>
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section class="container section scrollspy" id="portfolio">
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="img/portrait.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4">Portraits</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec,
+          tincidunt orci.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4 offset-l1 push-l7">
+        <img src="img/city.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1 pull-l5 right-align">
+        <h2 class="indigo-text text-darken-4">Cityscapes</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec,
+          tincidunt orci.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="img/nature.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4">Nature</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec,
+          tincidunt orci.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="Assets/img/F4516A42-875F-4B62-B1AE-A3E988932E3B_1_105_c.jpeg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- services / tabs -->
+  <section class="section container scrollspy" id="about">
+    <div class="row">
+      <div class="col s12 l4">
+        <h4 class="indigo-text text-darken-4">A little bit about me and what I do..</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec,
+          tincidunt orci.</p>
+        <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae
+          scelerisque erat ornare nec.</p>
+      </div>
+      <div class="col s12 l6 offset-l2">
+        <!-- tabs -->
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a href="#front-end" class="active indigo-text text-darken-4">Front End</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#back-end" class="indigo-text text-darken-4">back End</a>
+          </li>
+        </ul>
+        <div id="front-end" class="col s12">
+          <p class="flow-text indigo-text text-darken-4">Front End</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec,
+            tincidunt orci.</p>
+          <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae
+            scelerisque erat ornare nec.</p>
+        </div>
+        <div id="back-end" class="col s12">
+          <p class="flow-text indigo-text text-darken-4">Back End</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec,
+            tincidunt orci.</p>
+          <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae
+            scelerisque erat ornare nec.</p>
         </div>
       </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="Assets/img/89477886-45BA-4B04-AD20-B0EF5DB89CCF_1_105_c.jpeg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- contact form -->
+  <section class="section container scrollspy" id="contact">
+    <div class="row">
+      <div class="col s12 l5">
+        <h2 class="indigo-text text-darken-4">Get in Touch</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec,
+          tincidunt orci.</p>
+        <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae
+          scelerisque erat ornare nec.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec,
+          tincidunt orci.</p>
+        <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae
+          scelerisque erat ornare nec.</p>
+      </div>
+      <div class="col s12 l5 offset-l2">
+        <form>
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email">
+            <label for="email">Your Email</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">message</i>
+            <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">date_range</i>
+            <input type="text" id="date" class="datepicker">
+            <label for="date">Choose a date you need me for...</label>
+          </div>
+          <div class="input-field">
+            <p>Services required:</p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Front End</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Back End</span>
+              </label>
+            </p>
+          </div>
+          <div class="input-field center">
+            <button class="btn indigo">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h5 class="white-text">Connect:</h5>
+          <ul>
+            <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom"
+                data-tooltip="Github">
+                <i class="fab fa-github"></i>
+              </a></li>
+            <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom"
+                data-tooltip="Email">
+                <i class="fab fa-google"></i>
+              </a></li>
+            <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom"
+                data-tooltip="Linked In">
+                <i class="fab fa-linkedin"></i>
+              </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container center-align">&copy; 2020 Josephine Ndungu</div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
