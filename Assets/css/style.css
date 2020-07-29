@@ -19,7 +19,6 @@ header{
   .tabs .tab a:focus, .tabs .tab a:focus.active{
     background: transparent;
   }
-  .random-generator{
-      background: url(../img/89477886-45BA-4B04-AD20-B0EF5DB89CCF_1_105_c.jpeg);
-      background-size: cover;
-  }
+.title-card{
+    font-size: 14px !important;
+}
