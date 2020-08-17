@@ -13,10 +13,9 @@
 </head>
 
 <body>
-  <header>
-    <nav class="nav-wrapper transparent">
-      <div class="container">
-        <a href="#" class="brand-logo">Josephine Ndungu</a>
+  <div class="navbar-fixed">
+    <nav class="nav-wrapper black">
+        <a href="#" class="brand-logo grey-text">Josephine Ndungu</a>
         <a href="#" class="sidenav-trigger" data-target="mobile-menu">
           <i class="material-icons">menu</i>
         </a>
@@ -24,27 +23,19 @@
           <li><a href="#about">About</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom"
-              data-tooltip="Github">
-              <i class="fab fa-github"></i>
-            </a></li>
-          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom"
-              data-tooltip="Email">
-              <i class="fab fa-google"></i>
-            </a></li>
-          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom"
-              data-tooltip="Linked In">
-              <i class="fab fa-linkedin"></i>
-            </a></li>
         </ul>
         <ul class="sidenav grey lighten-2" id="mobile-menu">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-      </div>
     </nav>
-  </header>
+  </div>
+    <div class="parallax-container background1">
+      <div class="parallax">
+        <img src="Assets/img/97DFCDAB-12ED-4B17-9205-526CEEC6911C_1_105_c.jpeg" alt="" class="responsive-img">
+      </div>
+    </div>
   <section class="container section scrollspy" id="portfolio">
     <div class="row">
       <h3 class="indigo-text center-align">Portfolio</h3>
@@ -56,7 +47,7 @@
               <img src="Assets/img/Screen Shot 2020-07-29 at 1.32.59 AM.png" alt="">
               <span class="card-title title-card grey-text text-darken-2">Weather app</span>
             </div>
-            <div class="card-action">
+            <div class="card-action grey lighten-2">
               <a href="https://jose-lco.github.io/whatstheweatherlike/">App</a>
               <a href="https://github.com/Jose-lco/whatstheweatherlike">Source Code</a>
             </div>
@@ -68,7 +59,7 @@
               <img src="Assets/img/Screen Shot 2020-07-29 at 1.41.07 AM.png" alt="">
               <span class="card-title title-card grey-text text-darken-2">Work Day Scheduler</span>
             </div>
-            <div class="card-action">
+            <div class="card-action grey lighten-2">
               <a href="https://jose-lco.github.io/plan-my-day/">App</a>
               <a href="https://github.com/Jose-lco/plan-my-day">Source Code</a>
             </div>
@@ -80,7 +71,7 @@
               <img src="Assets/img/Screen Shot 2020-07-29 at 1.54.40 AM.png" alt="">
               <span class="card-title title-card grey-text text-darken-2">Random Password Generator</span>
             </div>
-            <div class="card-action">
+            <div class="card-action grey lighten-2">
               <a href="https://jose-lco.github.io/rando_pass/">App</a>
               <a href="https://github.com/Jose-lco/rando_pass">Source Code</a>
             </div>
@@ -92,7 +83,7 @@
               <img src="Assets/img/Screen Shot 2020-07-29 at 1.59.31 AM.png" alt="">
               <span class="card-title title-card grey-text text-lighten-2">Six Feet or Further</span>
             </div>
-            <div class="card-action">
+            <div class="card-action grey lighten-2">
               <a href="https://carooflee.github.io/Six-Feet-or-Further/">App</a>
               <a href="https://github.com/carooflee/Six-Feet-or-Further">Source Code</a>
             </div>
@@ -114,10 +105,8 @@
     <div class="row">
       <div class="col s12 l4">
         <h4 class="indigo-text text-darken-4">A little bit about me and what I do..</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec,
-          tincidunt orci.</p>
-        <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae
-          scelerisque erat ornare nec.</p>
+        <p>I am originally from Nairobi, Kenya. I have a bachelors in Law and I am currently enrolled at University of Washington Coding Bootcamp learning full stack Web-Development. I am passionate about software development because it provides a new challenge everyday which is something I seek in life.</p>
+        <p>Fun fact: I am quite easy-going, want to get in my good books just get me fries lol :)</p>
       </div>
       <div class="col s12 l6 offset-l2">
         <!-- tabs -->
@@ -208,30 +197,27 @@
       </div>
     </div>
   </section>
-  <footer class="page-footer grey darken-3">
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
-          <h5 class="white-text">Connect:</h5>
-          <ul>
-            <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom"
-                data-tooltip="Github">
-                <i class="fab fa-github"></i>
-              </a></li>
-            <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom"
-                data-tooltip="Email">
-                <i class="fab fa-google"></i>
-              </a></li>
-            <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom"
-                data-tooltip="Linked In">
-                <i class="fab fa-linkedin"></i>
-              </a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright grey darken-4">
-      <div class="container center-align">&copy; 2020 Josephine Ndungu</div>
+  <div>
+    <ul class="fixed-action-btn">
+    <li><a href="https://github.com/Jose-lco" class="tooltipped btn-floating btn-small indigo darken-4" data-position="left"
+      data-tooltip="Github">
+      <i class="fab fa-github"></i>
+    </a></li>
+    <br>
+  <li><a href="" class="tooltipped btn-floating btn-small indigo darken-4" data-position="left"
+      data-tooltip="Resume PDF">
+      <i class="fas fa-file-pdf"></i>
+    </a></li>
+    <br>
+  <li><a href="https://www.linkedin.com/in/josephine-ndungu-a0a441160/" class="tooltipped btn-floating btn-small indigo darken-4" data-position="left"
+      data-tooltip="LinkedIn">
+      <i class="fab fa-linkedin"></i>
+    </a></li>
+    </ul>
+  </div>
+  <footer>
+    <div class="page-footer footer-copyright grey darken-4">
+      <div class="container center-align grey-text text-lighten-2">&copy; 2020 Josephine Ndungu</div>
     </div>
   </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

@@ -1,11 +1,8 @@
-header{
-    background: url(../img/BDyz.gif);
-    background-size: cover;
-    background-position: center;
-    min-height: 1000px;
+.background1{
+    min-height: 700px;
   }
   @media screen and (max-width: 670px){
-    header{
+    .background1{
       min-height: 500px;
     }
   }
